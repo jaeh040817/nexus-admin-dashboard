@@ -59,6 +59,7 @@ type TeamStatusInfo = {
   teamName: string;  // 팀명 (글자)
   isReady: boolean;  // 준비완료 여부 (참/거짓)
 };
+
 8. 데이터 모델 (가짜 데이터 형태)
 💡 설명: 실제 데이터베이스 연결 전, 화면에 임시로 띄워둘 가짜 데이터(Mock Data)입니다.
 
@@ -109,6 +110,7 @@ Plaintext
     /components     <-- StatCard, CheckInStatus 등 화면 조각들 보관
     /types          <-- TypeScript 규칙 보관
     /api            <-- 데이터 불러오는 로직 (임시로 Mock Data 로직 보관)
+
 15. 구현 STEP 1~N (작업 순서)
 STEP 1 (10/8 완료): 개인 깃허브 Repository 생성 및 README(설계서) 작성
 
